@@ -29,7 +29,7 @@ public class Pyramid {
      */
     public String returnPyramid(int n){
         String result = "";
-        //Represents each line to be printed
+        //Represents each line to be printed.
         for(int i=1; i<=n; i++){
             //Represents each asterisk to be printed on one line
             for(int j=1; j<=i; j++){
