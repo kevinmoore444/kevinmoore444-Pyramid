@@ -28,6 +28,17 @@ public class Pyramid {
      * @return a string representation of the pyramid.
      */
     public String returnPyramid(int n){
-        return "";
+        String result = "";
+        //Represents each line to be printed
+        for(int i=1; i<=n; i++){
+            //Represents each asterisk to be printed on one line
+            for(int j=1; j<=i; j++){
+                result += '*';
+            }
+            result+='\n';
+        }
+        return result;
     }
 }
+
+
